@@ -1,0 +1,13 @@
+
+.main-area{
+    height: auto;
+    width: 60vw;
+    background-color: black;
+    margin: auto;
+    padding: 20px;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}

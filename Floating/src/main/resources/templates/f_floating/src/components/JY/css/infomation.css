@@ -1,0 +1,112 @@
+
+/* ProfileArea 스타일 */
+.profile-container {
+    padding: 10px;
+    margin: auto;
+    background-color: red;
+    height: 50vph;
+    width: 90vpw;
+}
+
+.profile-header {
+    background-color: green;
+    text-align: center;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.profile-box {
+    height: 80%;
+    width: 40%;
+    margin: auto;
+    border-color: brown;
+    border-width: 2px;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-box .img-box{
+
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-color: yellow;
+    overflow: hidden;
+}
+
+.profile-box img{
+    width: 77%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* .profile-box p {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+} */
+
+
+.profile-box p {
+    background-color: blue;
+}
+
+.info-box {
+    height: 80%;
+    width: 100%;
+    /* margin: auto; */
+    border-color: pink;
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 10px;
+}
+
+.info-box .info-name {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+
+    margin-top: 5px;
+
+}
+.info-box .info-item {
+    text-align: left;
+    display:flex;
+    
+}   
+
+.info-box .info-item .item-count{
+    margin:5px;
+}
+.info-box .info-item .follower-count{
+    margin:5px;
+}
+.info-box .info-item .follow-count{
+    margin:5px;
+}
+
+.info-box .info-memo {
+    text-align: left;
+    /* flex-direction: column; */
+
+    h4{
+        margin-top:5px;
+        margin-bottom:5px;
+
+    }
+
+    h5{
+        margin-top:5px;
+        margin-bottom: 20px;
+    }
+}   
