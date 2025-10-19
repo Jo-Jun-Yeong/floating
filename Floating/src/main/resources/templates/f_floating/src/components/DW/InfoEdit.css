@@ -1,0 +1,42 @@
+/* 전체 div 위치정렬 */
+.aInfoDCAligCtonw {
+    margin: 10px 10px 10px 50px;
+    position: relative;
+    width: 610px;
+}
+/* 개인정보 변경 대문 */
+.INfhSTContainer {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* 테두리 컨테이너 */
+.InfTedriC {
+    border-radius: 14px;
+    border: 1px solid gainsboro;
+    margin: 15px;
+    box-shadow: 1px 1px 1px gainsboro;
+    overflow: hidden;
+
+}
+/* 테두리안 경계선 컨테이너 */
+.InfTeduriAnLC {
+    border-bottom: 1px solid gainsboro;
+    padding: 15px;
+}
+.InfTeduriAnLC:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+}
+/* 박스안 대분류 */
+.InfCBxInDae {
+    font-size: 17px;
+    font-weight: bold;
+}
+/* 박스안 소분류 */
+.InfCBxInSoe {
+    font-size: 14px;
+    color: gray;
+    font-weight: 500;
+}

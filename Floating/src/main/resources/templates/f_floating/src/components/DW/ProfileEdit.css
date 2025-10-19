@@ -1,0 +1,128 @@
+/* 전체 컨테이너 */
+.aCDVAlignCon {
+    margin: 10px 50px 10px 50px;
+    padding: 5px;
+    width: 600px;
+    position: relative;
+}
+/* 프로필편집,소개,성별 글씨 */
+.hSTContainer {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* 프로필편집 컨테이너 */
+.uPEdCon {
+    display: flex;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+    background-color: rgba(213, 213, 213, 0.397);
+}
+/* 프로필 이미지 */
+.uPIMGCon {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+/* 닉네임,이름 컨테이너 */
+.uNANMCont {
+    margin: 0px 0px 0px 10px;
+}
+/* 닉네임 */
+.uNMCont {
+    font-weight: bold;
+    font-size: 17px;
+}
+/* 이름 */
+.uNameCont {
+    font-size: 10px;
+    color: gray;
+    padding-top: 3px;
+}
+/* 사진변경 컨테이너 */
+.uPicEditCon {
+    border-radius: 6px;
+    border: 1px solid blueviolet;
+    width: 95px;
+    height: 30px;
+    color: white;
+    background-color: blueviolet;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 75px;
+    right: 22px;
+}
+.uPicEditCon:hover{
+    cursor: pointer;
+}
+/* 소개 컨테이너 */
+.introCTBx{
+    position: relative;
+}
+/* 소개 인풋박스 */
+.intrMyfIPT {
+    width: 580px;
+    height: 30px;
+    padding: 8px;
+    border: 1px solid gainsboro;
+    border-radius: 6px;
+    font-size: 16px;
+    color: gainsboro;
+}
+.intrMyfIPT:focus {
+    outline: none;
+    border-color: gainsboro;
+    box-shadow: 0 0 3px gainsboro;
+}
+/* 1/100 글자수 프로그레스 바 */
+.PrBarCot {
+    position: absolute;
+    top: 23px;
+    right: 8px;
+    color: gainsboro;
+    font-size: 10px;
+    font-weight: bold;
+}
+/* 성별 셀렉박스 */
+.gndrSlctBxC {
+    width: 600px;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid gainsboro;
+    border-radius: 6px;
+    font-size: 16px;
+    color: gray;
+}
+/* 이정보는 공개 프로필에 표시되지 않습니다 */
+.thisInfDDAltC {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(135, 135, 135);
+    margin: 5px;
+}
+/* 수정완료 */
+.eCmpltC {
+    border-radius: 6px;
+    border: 1px solid blueviolet;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+    right: 22px;
+}
+.eCmpltC:hover {
+    cursor: pointer;
+}
