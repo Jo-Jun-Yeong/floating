@@ -1,0 +1,28 @@
+
+  /* story */
+  .story-container{
+    width: 100%;
+
+    margin-top: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .item-box{
+    width: 25%;
+
+  }
+  
+.item{
+    /* display: flex; */
+    width: 163px;
+    height: 230px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+  }
+
+
+

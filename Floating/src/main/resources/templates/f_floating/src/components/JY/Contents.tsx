@@ -1,12 +1,18 @@
 import React from 'react';
-import './css/contentsArea.css';
+import './css/contents.css';
+import Caterory from './Category';
+import Story from './Story'
 const Contents = () => {
     return (
-        <div>
-            <div className='contents-container'>
-                <h1>Contents Area</h1>
-            </div>
-        </div>
+
+    <div className='contents-container'>
+        <Caterory/>
+        <Story/>
+        <Story/>
+        <Story/>
+
+    </div>
+
     );
 };
 

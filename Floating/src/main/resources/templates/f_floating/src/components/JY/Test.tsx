@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ProfileArea from './Profile';
 import Contents from './Contents';
-import './css/contentsView.css';
+import './css/mainView.css';
 const ContentsView = () => {
+    
     return (
         <div>
             <div className="main-area">

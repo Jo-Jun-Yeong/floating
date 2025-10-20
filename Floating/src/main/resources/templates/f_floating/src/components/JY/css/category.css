@@ -1,33 +1,32 @@
-
-
-.category-box{
-    width : 100%;
-    /* height : 100%; */
-    /* display: flex; */
-    flex-direction: column;
-    justify-content: center;
-
-}
-.story {
-
-    width: 100%;
-    box-sizing: border-box;
-    padding-bottom: 4px;
+.categoy-box{
+    width: 694px;
     height: 40px;
-    line-height: 40px;
-    border-bottom: 1px solid black;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
+    border-bottom: 1px solid black;
+  }
+
+
+.story {
+
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: border-bottom 0.3s;
   }
 
   .story h2 {
 
     font-size: 24px;
-    margin: 0;
-    padding: 0 10px;
     cursor: pointer;
 
     display: inline-block;
@@ -38,6 +37,4 @@
     border-bottom: 3px solid black;
     transition: border-bottom 0.3s;
   }
-
-  
 

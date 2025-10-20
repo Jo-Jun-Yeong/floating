@@ -3,44 +3,57 @@
 .profile-container {
     padding: 10px;
     margin: auto;
-    background-color: red;
-    height: 50vph;
-    width: 90vpw;
+
+    height: 181px;
+    width:80%;
+
+    display:flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .profile-header {
-    background-color: green;
+    /* background-color: green; */
     text-align: center;
-    height: 25vh;
+    height: 181px;
+    width:594px;
+
+    padding: 10px;
+
+    
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px;
-    justify-content: center;
+
 }
 
 .profile-box {
     height: 80%;
     width: 40%;
     margin: auto;
-    border-color: brown;
-    border-width: 2px;
-    border-style: solid;
+    /* border-color: brown; */
+    /* border-width: 2px;
+    border-style: solid; */
     justify-content: center;
     align-items: center;
 }
 
-.profile-box .img-box{
+ .img-box{
 
-    background-color: blue;
+    /* background-color: blue; */
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    border-color: yellow;
+    /* border-color: yellow; */
     overflow: hidden;
+
+    .img{
+        width:150px;
+        height: 150px;
+    }
 }
 
 .profile-box img{
@@ -58,41 +71,67 @@
 
 
 .profile-box p {
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .info-box {
     height: 80%;
     width: 100%;
     /* margin: auto; */
-    border-color: pink;
-    border-width: 2px;
-    border-style: solid;
+    /* border-color: pink; */
+    /* border-width: 2px;
+    border-style: solid; */
     padding-left: 10px;
 }
 
 .info-box .info-name {
     text-align: left;
-    font-size: 1.5em;
+    font-size: 23px;
     font-weight: bold;
 
     margin-top: 5px;
+    padding: 1px;
 
+    .info-id span{
+
+        font-size: 23;
+    }
+
+      
 }
+
+.info-box .info-name h4{
+    margin: auto;
+    font-size: 14px;
+
+    margin-Top: 8px;
+    margin-bottom: 8px;
+}
+
 .info-box .info-item {
+    
     text-align: left;
-    display:flex;
+    display: flex;
+    font-size: 14px;
+
+    span{
+
+        margin-left: 0px;
+    }
     
 }   
 
 .info-box .info-item .item-count{
     margin:5px;
+    margin-left: 0px;
 }
 .info-box .info-item .follower-count{
     margin:5px;
+    margin-left: 0px;
 }
 .info-box .info-item .follow-count{
     margin:5px;
+    margin-left: 0px;
 }
 
 .info-box .info-memo {
