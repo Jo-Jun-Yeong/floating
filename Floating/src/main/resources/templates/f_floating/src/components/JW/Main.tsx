@@ -25,7 +25,7 @@ const Main = () => {
 
             <div className='middle'>
                 <img className='profile-img'></img>
-                <div style={{marginLeft:'10px', paddingTop:'5px'}} className='content-center'>userId <span className='gray-font'>• 10시간</span></div>
+                <div style={{marginLeft:'10px', paddingTop:'5px'}} className='content-center'>userId2 <span className='gray-font'>• 10시간</span></div>
                 <div style={{marginLeft:'340px', paddingTop:'5px'}} className='content-center'> •••</div>
             </div>
             
