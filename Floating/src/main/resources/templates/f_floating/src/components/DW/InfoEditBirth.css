@@ -1,0 +1,73 @@
+/* 전체 div 위치정렬 */
+.aInfoDCAligCtonwAAex {
+    position: relative;
+    width: 634px;
+    top: 29px;
+  }
+  /* 개인정보 변경 대문 */
+  .INfhSTContainerAAex {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  /* 연락처 정보를 현재 어쩌구 */
+  .yeonJeInfCex {
+    padding: 30px 0px 20px 0px;
+    font-size: 16px;
+    color: gray;
+  }
+  /* 테두리 컨테이너 */
+  .InfTedriCAAex {
+    border-radius: 14px;
+    border: 1px solid rgb(239, 239, 239);
+    margin: 15px;
+    box-shadow: 1px 1px 1px rgb(239, 239, 239);
+    overflow: hidden;
+  }
+  /* 테두리안 경계선 컨테이너 */
+  .InfTeduriAnLCAAex {
+    display: flex;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    padding: 15px;
+    height: 50px;
+  }
+  /* 박스안 대분류 */
+  .InfCBxInDaeAAex {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  /* 박스안 소분류 */
+  .InfCBxInSoeAAex {
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 36px;
+    align-content: center;
+    align-self: center;
+  }
+  /* 생일 수정버튼 */
+  .EditBirthdta {
+    font-size: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    width: 73px;
+    height: 33px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    right: 29px;
+    color: gray;
+  }
+.EditBirthdta:hover {
+    cursor: pointer;
+    background-color: rgb(239, 239, 239);
+}
+/* 회원님의 생일이 회원님 어쩌구 */
+.yeonJeInfCexa {
+  font-size: 14px;
+  color: gray;
+  padding-top: 50px;
+}
+

@@ -14,20 +14,20 @@
 /* 테두리 컨테이너 */
 .InfTedriC {
     border-radius: 14px;
-    border: 1px solid gainsboro;
+    border: 1px solid rgb(239, 239, 239);
     margin: 15px;
-    box-shadow: 1px 1px 1px gainsboro;
+    box-shadow: 1px 1px 1px rgb(239, 239, 239);
     overflow: hidden;
 
 }
 /* 테두리안 경계선 컨테이너 */
 .InfTeduriAnLC {
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 1px solid rgb(239, 239, 239);
     padding: 15px;
 }
 .InfTeduriAnLC:hover {
     cursor: pointer;
-    background-color: gainsboro;
+    background-color: rgb(239, 239, 239);
 }
 /* 박스안 대분류 */
 .InfCBxInDae {

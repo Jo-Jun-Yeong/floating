@@ -12,11 +12,11 @@ const componentName = () => {
 
                 <div className='uPEdCon'>
                     <div>
-                        <img className='uPIMGCon' src='images/DW/arnold.jfif'></img>
+                        <img className='uPIMGCon' src='images/DW/test_profile.jpg'></img>
                     </div>
                     <div className='uNANMCont'>
-                        <div className='uNMCont'>arnold_king</div>
-                        <div className='uNameCont'>아놀드 슈월제네거</div>
+                        <div className='uNMCont'>dog_bird</div>
+                        <div className='uNameCont'>개새</div>
                     </div>
                     <div className='uPicEditCon'>사진변경</div>
                 </div>               
