@@ -1,0 +1,11 @@
+.NeviContainer{
+    position:fixed;
+    top: 0;
+    left:0;
+    width:150px;
+    height: 100vh;
+    background-color: aquamarine;
+
+    z-index: 1000;
+    padding:20px;
+}

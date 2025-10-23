@@ -1,40 +1,51 @@
-.categoy-box{
-    width: 694px;
-    height: 40px;
+.category-box{
+    width: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    border-bottom: 1px solid black;
+
   }
 
 
 .story {
 
     box-sizing: border-box;
-    height: 40px;
+    height: 50px;
     line-height: 40px;
-    border-bottom: 1px solid black;
     
     display: flex;
     justify-content: center;
     align-items: center;
-
-    transition: border-bottom 0.3s;
   }
 
-  .story h2 {
-
-    font-size: 24px;
-    cursor: pointer;
-
-    display: inline-block;
-
+  .story img{
+    transition: height 0.3s ease;
+    height : 50px;
+    width: 50px;
   }
-  
-  .story.active {
-    border-bottom: 3px solid black;
-    transition: border-bottom 0.3s;
+
+  .story img:hover{
+    transition: height 0.3s ease;
+    height : 75px;
+    width: 75px;
   }
+
+  .story_active {
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .story_active img{
+    transition: height 0.3s ease;
+    height: 75px;
+    width: 75px;
+
+}
 

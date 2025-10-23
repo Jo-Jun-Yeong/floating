@@ -8,9 +8,6 @@ const Contents = () => {
     <div className='contents-container'>
         <Caterory/>
         <Story/>
-        <Story/>
-        <Story/>
-
     </div>
 
     );

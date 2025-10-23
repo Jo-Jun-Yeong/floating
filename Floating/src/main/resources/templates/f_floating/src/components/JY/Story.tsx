@@ -1,16 +1,24 @@
 import React from 'react';
-
+import StoryItem from '../StoryItem';
 import './css/story.css';
 const Story = () => {
     return (
       
 
     <div className="story-container">
-        <div className="item-box">
-            <div className="item">
-                Story Component
-            </div>
-        </div>
+        <StoryItem/>
+        <StoryItem/>
+        <StoryItem/>
+        <StoryItem/>
+        <StoryItem/>
+        <StoryItem/>
+        <StoryItem/>
+        <StoryItem/>
+        <StoryItem/>
+        <StoryItem/>
+        <StoryItem/>
+        <StoryItem/>
+        <StoryItem/>
     </div>
 
 
