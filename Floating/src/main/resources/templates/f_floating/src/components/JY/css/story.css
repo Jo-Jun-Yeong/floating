@@ -10,19 +10,24 @@
   }
 
   .item-box{
-    width: 25%;
+    /* 얇게 width만 증가 */
+    width: 24%;
+    height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* 두껍게 */
+    /* margin-bottom: 35px; */
   }
   
 .item{
     /* display: flex; */
-    width: 163px;
-    height: 230px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    /* 두껍게 */
+    width: 17vw;
+    height: 40vh;
+    margin-left: 1px;
+    /* margin-right: 1px; */
+    margin-bottom: 1px;
     background-color: black;
   }
 
