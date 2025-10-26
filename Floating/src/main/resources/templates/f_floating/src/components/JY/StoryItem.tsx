@@ -1,5 +1,5 @@
 import React from 'react';
-import './JY/css/story.css';
+import './css/story.css';
 const StoryItem = () => {
     return (
 

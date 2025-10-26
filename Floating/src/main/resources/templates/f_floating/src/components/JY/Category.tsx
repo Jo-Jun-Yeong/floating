@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Story from './Story';
-
 import './css/category.css';
 const Caterory = () => {
   const [active, setActive] = useState(false);

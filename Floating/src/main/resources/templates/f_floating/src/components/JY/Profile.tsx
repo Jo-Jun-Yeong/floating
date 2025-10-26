@@ -1,7 +1,7 @@
 import React from 'react';
-import { style } from '../../../node_modules/postcss-minify-font-values/types/lib/keywords.d';
+import { style } from 'postcss-minify-font-values/types/lib/keywords';
 import './css/infomation.css';
-import { className } from '../../../node_modules/@sinonjs/commons/types/index.d';
+import { className } from '@sinonjs/commons';
 const ProfileArea = () => {
     return (
         
