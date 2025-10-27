@@ -1,3 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  user-select: none;
+}
+
 .App {
   text-align: center;
 }
