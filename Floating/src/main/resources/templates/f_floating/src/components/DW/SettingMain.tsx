@@ -5,9 +5,7 @@ import PasswordEdit from './PasswordEdit';
 import InfoEdit from './InfoEdit';
 
 const SettingMain = () => {
-    // 모달창
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    // 메뉴전환
+
     const [pageType, setPageType] = useState<number>(0);
     const handleClick = (type:number) => {
         // alert(type + "버튼 눌림!");
@@ -23,7 +21,7 @@ const SettingMain = () => {
           case 3:
             return <InfoEdit/>;
           default:
-            return <ProfileEdit/>;
+            return <div>좌측에서 선택</div>;
         }
       };
 
@@ -38,17 +36,17 @@ const SettingMain = () => {
                   <div className='LeftSetMenuWayOrder'>내 floating 사용 방식</div>
 
                   <div className='onClickMenuSet' onClick={() => handleClick(1)}>
-                    <img className='onClickMenuImgContSet' src="/images/DW/profile_edit.svg" alt="" />
+                    <img className='onClickMenuImgContSet' src="/images/DW/profileEdit3.png" alt="" />
                     <div>프로필 편집</div>
                   </div>
 
-                  <div className='onClickMenuSet' onClick={() => setIsModalOpen(true)}>
-                    <img className='onClickMenuImgContSet' src="/images/DW/password_edit.svg" alt="" />
+                  <div className='onClickMenuSet' onClick={() => handleClick(2)}>
+                    <img className='onClickMenuImgContSet' src="/images/DW/pwEdit2.png" alt="" />
                     <div>비밀번호 변경</div>
                   </div>
 
                   <div className='onClickMenuSet' onClick={() => handleClick(3)}>
-                    <img className='onClickMenuImgContSet' src="/images/DW/info_edit.svg" alt="" />
+                    <img className='onClickMenuImgContSet' src="/images/DW/infoEdit1.png" alt="" />
                     <div>개인정보 변경</div>
                   </div>
 
@@ -57,16 +55,6 @@ const SettingMain = () => {
               <div>
                   {/* <div>오른쪽에 표시될 페이지</div> */}
                   <div>{renderRightPage()}</div>
-                  {isModalOpen && (
-                    <div className="modal-overlay" onClick={() => setIsModalOpen(false)}>
-                      <div className="modal-container" onClick={(e) => e.stopPropagation()}>
-                        <PasswordEdit />
-                        <button className="modal-close-btn" onClick={() => setIsModalOpen(false)}>
-                          <img className='closeXbtnSz' src='./images/DW/x.svg'/>
-                        </button>
-                      </div>
-                    </div>
-                  )}
               </div>
 
             </div>

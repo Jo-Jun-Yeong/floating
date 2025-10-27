@@ -18,7 +18,7 @@
     padding: 10px;
     margin: 3px;
     border-radius: 10px;
-    background-color: rgb(239, 239, 239);
+    background-color: rgba(213, 213, 213, 0.397);
 }
 /* 프로필 이미지 */
 .uPIMGCon {
@@ -70,22 +70,22 @@
     width: 580px;
     height: 30px;
     padding: 8px;
-    border: 1px solid rgb(239, 239, 239);
+    border: 1px solid gainsboro;
     border-radius: 6px;
     font-size: 16px;
-    color: rgb(239, 239, 239);
+    color: gainsboro;
 }
 .intrMyfIPT:focus {
     outline: none;
-    border-color: rgb(239, 239, 239);
-    box-shadow: 0 0 3px rgb(239, 239, 239);
+    border-color: gainsboro;
+    box-shadow: 0 0 3px gainsboro;
 }
 /* 1/100 글자수 프로그레스 바 */
 .PrBarCot {
     position: absolute;
     top: 23px;
     right: 8px;
-    color: gray;
+    color: gainsboro;
     font-size: 10px;
     font-weight: bold;
 }
@@ -94,7 +94,7 @@
     width: 600px;
     height: 40px;
     padding: 8px;
-    border: 1px solid rgb(239, 239, 239);
+    border: 1px solid gainsboro;
     border-radius: 6px;
     font-size: 16px;
     color: gray;
@@ -103,7 +103,7 @@
 .thisInfDDAltC {
     font-size: 12px;
     font-weight: bold;
-    color: gray;
+    color: rgb(135, 135, 135);
     margin: 5px;
 }
 /* 수정완료 */
