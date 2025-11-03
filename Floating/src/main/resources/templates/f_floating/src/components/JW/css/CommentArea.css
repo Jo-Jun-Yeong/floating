@@ -1,0 +1,87 @@
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 850px;
+    height: 700px; /* 모달 고정 높이 */
+}
+
+.left {
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.right-top {
+    height: 50px; /* 고정 높이 */
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.right-list {
+    flex-grow: 1;       /* 남은 공간 모두 차지 */
+    padding: 8px;
+    overflow-y: auto;   /* 스크롤 가능 */
+    border-bottom: 2px solid black;
+}
+
+.item {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.right-bottom {
+    height: 40px; /* 고정 높이 */
+    border: 1px solid black;
+}
+
+.comment-area {
+    display: flex;
+}
+
+.comment-input {
+    flex: 1;
+    border: 1px solid #bbb;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.comment-btn {
+    padding: 8px 12px;
+    background: #4a77f3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.ReactModal__Body--open {
+    overflow: hidden; /* 배경 페이지 스크롤 차단 */
+}
+
+/* overlay 영역 기준 X 버튼 */
+.overlay-close-btn {
+    position: fixed;   /* 화면 기준 최상단 오른쪽 */
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 10000;
+    background: none;
+    border: none;
+}
+

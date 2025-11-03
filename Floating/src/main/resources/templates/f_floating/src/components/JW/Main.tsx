@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
+import ReactDOM from 'react-dom'
 import './css/Main.css'
 import messageCircle from './img/message-circle.svg'
 import bookmark from './img/bookmark.svg'
@@ -8,10 +9,15 @@ import kdhJOY from './img/kdhJOY.jpg'
 import directMsgImg from './img/message-square-more.svg'
 import fullScreenBtn from './img/maximize-2.svg'
 import closeBtn from './img/x.svg'
+import CommentArea from './CommentArea'
+import Modal from 'react-modal'
 
 const Main = () => {
 
     const [chatbox,setChatbox] = useState(false);
+    const [commArea, setCommArea] = useState(false);
+
+    // 더미데이터를 JSON파일을 만들어서 때려박기
 
     interface Message{
         id: number;
@@ -24,7 +30,7 @@ const Main = () => {
     const messages = [
         {
             id: 1,
-            userNickName: 'userNickName',
+            userNickName: 'Joy21',
             message: '안녕하세요',
             timeAgo: '2시간',
             profileImage: kdhJOY
@@ -160,7 +166,9 @@ const Main = () => {
                     <div className='content-center'>
                         <div style={{fontSize:'22pt', justifyContent:'center', alignItems:'center', display:'flex', width:'500px', margin:'0 auto'}}>
                             ♡<span style={{fontSize:'11pt', marginLeft:'3px', marginRight:'12px', paddingTop:'9px'}}>{mainSty.likeCount}</span>
-                            <img src={messageCircle}></img><span style={{fontSize:'11pt', marginLeft:'3px', paddingTop:'9px'}}>{mainSty.commentCount}</span>
+                            <button onClick={() => setCommArea(true)}><img src={messageCircle}></img></button> {/* onclick */}
+                            {commArea && <CommentArea onClose={() => setCommArea(false)}/>}
+                            <span style={{fontSize:'11pt', marginLeft:'3px', paddingTop:'9px'}}>{mainSty.commentCount}</span>
                             <img src={bookmark} style={{marginLeft:'auto'}}></img>
                         </div>
                     </div>
