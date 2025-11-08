@@ -7,6 +7,7 @@
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .item-box{
@@ -23,13 +24,60 @@
 .item{
     /* display: flex; */
     /* 두껍게 */
-    width: 17vw;
-    height: 40vh;
+    width: 230px;
+    height: 315px;
     margin-left: 1px;
     /* margin-right: 1px; */
+    object-fit: fill;
     margin-bottom: 1px;
-    background-color: black;
+    background-color: rgb(238, 204, 210);
+
+    #like_comment_container{
+      display: none;
+    }
+    
   }
 
+.item:hover{
+    
+    width: 230px;
+    height: 315px;
+    object-fit: fill;
 
+    background-color:rgb(255, 255, 255 0.5);
+    opacity: 0.5;
 
+    #like_comment_container{
+      display: flex;
+    }
+
+}
+
+#like_comment_container{
+
+  height: 100%;
+  flex-direction: row;
+  
+  align-items: center;
+  justify-content: center;
+
+}
+
+.like_container{
+  display: flex;
+  margin:10px;
+}
+
+.like_icon{
+  
+}
+
+.comment_container{
+  display: flex;  
+  margin:10px;
+
+}
+
+.comment_icon{
+
+}
