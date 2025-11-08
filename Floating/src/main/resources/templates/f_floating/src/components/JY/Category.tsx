@@ -1,28 +1,23 @@
 import React, { useState } from 'react';
+import { Sailboat } from 'lucide-react';
+// import { Modal } from 'react-modal';
 import './css/category.css';
 const Caterory = () => {
   const [active, setActive] = useState(false);
-
   const handleClick = () => {
     setActive(prev => !prev);
   };
 
-  const savedLoad = process.env.PUBLIC_URL;
-  const saveIcon = active ? `${savedLoad}/JY/save_click.png` : `${savedLoad}/JY/save_unclick.png`;
+  const boatColor = active ? `rgb(0,127,255)` : `rgb(0,0,0)`
   
     // {/* ?position: fixed; */}
   return (
     <div className="category-box">
-      <div style={
-        {width:"85px", height:"85px"
-        , display:"flex", justifyContent:"center"
-        , marginBottom:"5px", marginTop:"5px"
-      , alignItems:"center"}
-        }>
-        <div className={`story${active ? '_active' : ''}`} onClick={handleClick}>
-        <img src={saveIcon} alt="저장"></img>
-          {/* <h2>스토리</h2> */}
-        </div>
+      <div className="category-icon-box">
+        <Sailboat  
+        className={`my-Sailboat${active ? '_active' : ''}`} 
+        onClick={handleClick} 
+        color={boatColor}/>
       </div>
     </div>
 

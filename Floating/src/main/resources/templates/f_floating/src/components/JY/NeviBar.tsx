@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './css/NeviBar.css';
+import { Search, MessageCircle, History, Plus, UserRoundPen, Menu } from 'lucide-react';
 const NeviBar = () => {
 
     const [active , setActive] = useState(false);
@@ -17,55 +18,55 @@ const NeviBar = () => {
                 </div>
                 
             </div>
-
+        {/* 클릭되면 두꺼운 이미지로 변경하게 추후 변경 */}
             <div className="link-container">
                 <div></div>
                 <div className="link">
                     <label className='icon' onClick={handleClick}>
-                        <img src={searchIcon} alt='search'></img>
+                        <Search/>
                     </label>
                     
-                    <div className='search-text'>
+                    <div className='icon-text'>
                         검색
                     </div>
                 </div>
 
                 <div className="link">
                     <label className='icon' onClick={handleClick}>
-                        <img src={searchIcon} alt='search'></img>
+                        <MessageCircle/>
                     </label>
                     
-                    <div className='search-text'>
+                    <div className='icon-text'>
                         메세지
                     </div>
                 </div>
 
                 <div className="link">
                     <label className='icon' onClick={handleClick}>
-                        <img src={searchIcon} alt='search'></img>
+                        <History/>
                     </label>
                     
-                    <div className='search-text'>
+                    <div className='icon-text'>
                         알림
                     </div>
                 </div>
 
                 <div className="link">
                     <label className='icon' onClick={handleClick}>
-                        <img src={searchIcon} alt='search'></img>
+                        <Plus/>
                     </label>
                     
-                    <div className='search-text'>
+                    <div className='icon-text'>
                         만들기
                     </div>
                 </div>
 
                 <div className="link">
                     <label className='icon' onClick={handleClick}>
-                        <img src={searchIcon} alt='search'></img>
+                        <UserRoundPen/>
                     </label>
                     
-                    <div className='search-text'>
+                    <div className='icon-text'>
                         프로필
                     </div>
                 </div>
@@ -74,9 +75,11 @@ const NeviBar = () => {
             <div className="more-icon">
                 <div className="link">
                 <label className='icon' onClick={handleClick}>
-                    <img src={searchIcon} alt='search'></img>
+                    <Menu/>
                 </label>
-                    더보기
+                <div className='icon-text'>
+                        더보기
+                    </div>
                 </div>
             </div>
         </div>

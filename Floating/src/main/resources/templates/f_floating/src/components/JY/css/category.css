@@ -1,50 +1,38 @@
+.category-box, 
+.story, 
+.category-icon-box, 
+.icon, 
+.icon_active{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+ 
 .category-box{
     width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    /* background-color: black; */
   }
 
 
-.story {
 
-    box-sizing: border-box;
-    height: 50px;
-    line-height: 40px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.category-icon-box{
+  width: 85px;
+  height: 85px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 
-  .story img{
-    transition: height 0.3s ease;
-    height : 50px;
-    width: 50px;
-  }
+  
+}
 
-  .story img:hover{
-    transition: height 0.3s ease;
-    height : 55px;
-    width: 55px;
-  }
-
-  .story_active {
-    box-sizing: border-box;
-    height: 50px;
-    line-height: 40px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .story_active img{
-    transition: height 0.3s ease;
-    height: 55px;
-    width: 55px;
+.my-Sailboat{
+  width:52px;
+  height:52px
+}
+.my-Sailboat_active{
+  width:54px;
+  height:55px;
 
 }
 
